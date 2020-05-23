@@ -1,5 +1,5 @@
 {
-    "name": "jenalgit/swaggervel",
+    "name": "appointer/swaggervel",
     "description": "A great way to integrate Swagger into Laravel",
     "keywords": ["laravel", "swagger", "documentation", "api"],
     "license": "MIT",
@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-0": {
-            "jenalgit\\Swaggervel": "src/"
+            "Appointer\\Swaggervel": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "jenalgit\\Swaggervel\\SwaggervelServiceProvider"
+                "Appointer\\Swaggervel\\SwaggervelServiceProvider"
             ]
         }
     }
